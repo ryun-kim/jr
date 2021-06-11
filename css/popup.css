@@ -1,0 +1,39 @@
+#popup {
+    width: 500px;
+    height: 500px;
+    background-color: #ffffff;
+    position: fixed;
+    left: 750px;
+    top: 100px;
+    z-index: 9;
+    border: 1px solid #333;
+    font-size: 14px;
+    box-shadow: rgba(0,0,0,0.5) 0 0 0 10px;
+    
+}
+
+#popup>div:first-child{
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+#popup>div:nth-child(2){
+    background-color: #ffffff;
+    font-size: 16px;
+}
+
+#popup>div:nth-child(2)>p{
+    margin-bottom: 30px;
+}
+#popup>div:nth-child(3){
+    background-color:#ffffff;
+    position: relative;
+    top:231px;
+}
+#popup>div:nth-child(3)>img{
+    position:relative;
+    left: 450px;
+}
